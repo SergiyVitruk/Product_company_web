@@ -1,2 +1,2 @@
-# blanded_project
+# blended_project
 additional task for study

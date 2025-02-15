@@ -221,3 +221,15 @@ button {
     padding-bottom: 50px;
     max-width: 175px;
 }
+
+/* main sections */
+
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.title-design {
+    font-weight: 600;
+}
+

@@ -1,0 +1,154 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #22343D;
+    background-color: #FFFFFF;
+}
+
+/* reset */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+/* common style */
+
+.container {
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header style */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.logo {
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    padding: 22px 0;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-list-item {
+    width: calc((100% - 120px) / 4);
+}
+
+.header-nav-list-link {
+    display: block;
+    line-height: 1.75;
+    color: #22343d;
+    padding: 26px 0;
+
+}
+
+.header-btn-list {
+    display: flex;
+    gap: 21px;
+    padding: 19px 0;
+}
+
+.btn-si {
+    font-weight: 600;
+    text-align: center;
+    color: #173a56;
+    padding: 9px 25px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.btn-su {
+    font-weight: 600;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 4px;
+    background-color: #02897a;
+}
+
+/* hero style */
+.hero-container {
+    display: flex;
+    border: 1px solid #000;
+    margin-bottom: 100px;
+}
+
+.hero-title-pad {
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-top: 112px;
+    padding-right: 48px;
+    padding-bottom: 18px;
+
+}
+
+.hero-txt {
+    font-size: 18px;
+    line-height: 1.55;
+    padding-bottom: 45px;
+}
+
+.hero-btn-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 112px;
+}
+
+.btn-gs {
+    font-weight: 700;
+    color: #fff;
+    padding: 15px auto;
+    border-radius: 4px;
+    background-color: #02897a;
+}
+
+.btn-wtv {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+}

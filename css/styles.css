@@ -67,6 +67,7 @@ button {
 .header-nav {
     display: flex;
     justify-content: space-between;
+    padding: 26px auto;
 }
 
 /* wrong padding, unwork calc */

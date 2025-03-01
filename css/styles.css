@@ -519,6 +519,10 @@ button {
   fill: none;
 }
 
+.feedback-map {
+  padding: 10px 0px;
+}
+
 .feedback-form-container {
   margin-top: 50px;
   padding: 52px 50px;
@@ -527,6 +531,7 @@ button {
   gap: 45px;
   border: 1px solid #ddd;
   width: 100%;
+  border-radius: 20px;
 }
 
 .feedback-form {
@@ -549,6 +554,40 @@ button {
   border-radius: 39px;
   padding: 19px 20px;
   background-color: #f5f5f5;
+}
+
+.input-feedback-form::placeholder {
+  font-size: 15px;
+  line-height: 1.07;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+
+.comment-feedback-area {
+  border: 1px solid #e8e8e8;
+  padding: 23px 20px;
+  resize: none;
+  background-color: #f5f5f5;
+  height: 193px;
+}
+
+.comment-feedback-area::placeholder {
+  font-size: 15px;
+  line-height: 1.07;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+
+.send-btn {
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  color: #fff;
+  border-radius: 35px;
+  padding: 18px 38px;
+  cursor: pointer;
+  background: #02897a;
+  max-width: 145px;
 }
 
 /* #endregion resourses page/feedback */

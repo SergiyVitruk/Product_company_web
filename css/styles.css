@@ -554,6 +554,7 @@ button {
   border-radius: 39px;
   padding: 19px 20px;
   background-color: #f5f5f5;
+  width: 100%;
 }
 
 .input-feedback-form::placeholder {
@@ -569,6 +570,7 @@ button {
   resize: none;
   background-color: #f5f5f5;
   height: 193px;
+  width: 100%;
 }
 
 .comment-feedback-area::placeholder {

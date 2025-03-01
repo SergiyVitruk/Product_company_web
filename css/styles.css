@@ -51,7 +51,7 @@ button {
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -70,7 +70,7 @@ button {
 .header-nav {
     display: flex;
     justify-content: space-between;
-    margin: 26px auto;
+    padding: 26px auto;
 }
 
 .header-nav-list {
@@ -125,7 +125,7 @@ button {
 /* #region hero style */
 .hero-container {
     display: flex;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .hero-title-marg {
@@ -195,6 +195,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .product-title {
@@ -239,7 +240,6 @@ button {
     height: 53px;
     border-radius: 4px;
     background-color: #02897a;
-    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -249,12 +249,15 @@ button {
 
 .management-container {
     display: flex;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .management-subcontainer {
     display: flex;
     flex-direction: column;
+    padding: 41px 0;
+    margin-right: 84px;
+    max-width: 486px;
 }
 
 .title-design {
@@ -297,14 +300,15 @@ button {
 
 .support-container {
     display: flex;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .support-subcontainer {
     display: flex;
     flex-direction: column;
-    max-width: 450px;
-    margin-left: 84px;
+    max-width: 451px;
+    margin-left: 49px;
+    padding: 41px 35px;
 }
 
 .section-title-support {
@@ -361,7 +365,7 @@ button {
 /* #region collaborative design */
 
 .collaborative {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .collaborative-container {
@@ -371,11 +375,87 @@ button {
 .collaborative-subcontainer {
     display: flex;
     flex-direction: column;
-    margin: 41px 84px 41px 0;
+    padding: 41px 0;
+    margin-right: 84px;
     max-width: 486px;
 }
 
-
-
 /* #endregion collaborative design */
 
+/* #region process design */
+
+.process-container {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-title-container {
+    margin-bottom: 40px;
+}
+
+.process-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.process-txt {
+    font-weight: 500;
+    line-height: 1.62;
+    color: #22343d;
+    max-width: 542px;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+}
+
+.process-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 91px;
+    row-gap: 25px;
+    margin-bottom: 50px;
+}
+
+.process-list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: calc((100% - 91px) / 2);
+    max-width: 408px;
+}
+
+.reversed-item {
+    flex-direction: row-reverse;
+
+}
+
+.process-item-txt {
+    padding: 13px 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #2f281e;
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+    border-radius: 24px;
+    min-width: 281px;
+}
+
+.btn-cou {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    width: 216px;
+    height: 53px;
+    background-color: #02897a;
+    padding: 15px 31px;
+    cursor: pointer;
+}
+
+
+/* #endregion process design */

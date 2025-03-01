@@ -51,7 +51,7 @@ button {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .logo {
@@ -61,8 +61,8 @@ button {
     line-height: 0.93;
     color: #173a56;
     gap: 16px;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    margin-top: 22px;
+    margin-bottom: 22px;
     align-items: center;
     margin-right: 237px;
 }
@@ -70,7 +70,7 @@ button {
 .header-nav {
     display: flex;
     justify-content: space-between;
-    padding: 26px auto;
+    margin: 26px auto;
 }
 
 .header-nav-list {
@@ -90,13 +90,12 @@ button {
     display: block;
     line-height: 1.75;
     color: #22343d;
-    padding: 26px auto;
     }
 
 .header-btn-list {
     display: flex;
     gap: 21px;
-    padding: 19px 0;
+    margin:: 19px 0;
     align-items: center;
 }
 
@@ -126,7 +125,7 @@ button {
 /* #region hero style */
 .hero-container {
     display: flex;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .hero-title-marg {
@@ -138,13 +137,13 @@ button {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 .hero-txt {
     font-size: 18px;
     line-height: 1.55;
-    padding-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .hero-btn-list {
@@ -196,7 +195,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
 }
 
 .product-title {
@@ -210,7 +208,7 @@ button {
 .product-list {
     display: flex;
     gap: 30px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .product-list-item {
@@ -219,10 +217,14 @@ button {
     width: calc((100% - 90px) / 4);
 }
 
+.product-icon {
+    margin-bottom: 18px;
+}
+
 .product-subtitle {
     font-weight: 600;
     font-size: 22px;
-    padding-bottom: 13px;
+    margin-bottom: 13px;
     justify-content: center;
 }
 
@@ -247,7 +249,7 @@ button {
 
 .management-container {
     display: flex;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .management-subcontainer {
@@ -258,13 +260,13 @@ button {
 .title-design {
     font-weight: 600;
     font-size: 16px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 32px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     max-width: 224px;
 }
 
@@ -274,12 +276,14 @@ button {
 }
 
 .management-subtitle {
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.62;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .management-subtxt {
+    font-size: 16px;
     line-height: 1.62;
 }
 
@@ -293,20 +297,20 @@ button {
 
 .support-container {
     display: flex;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .support-subcontainer {
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    padding-left: 84px;
+    margin-left: 84px;
 }
 
 .section-title-support {
     font-weight: 700;
     font-size: 32px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     max-width: 304px;
 }
 
@@ -315,3 +319,63 @@ button {
     flex-direction: column;
     gap: 25px;
 }
+
+.support-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-icon-design {
+    height: 35px;
+    width: 35px;
+    background-color: #f03e3d;
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange-check {
+    background-color: #f90;;
+}
+
+.blue-check {
+    background-color: #4d8dff;;
+}
+
+.check-icon {
+    fill: white;
+}
+
+.support-txt {
+    line-height: 1.62;
+}
+
+/* #endregion customer support design */
+
+/* #region collaborative design */
+
+.collaborative {
+    margin-bottom: 150px;
+}
+
+.collaborative-container {
+    display: flex;
+}
+
+.collaborative-subcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 41px 84px 41px 0;
+    max-width: 486px;
+}
+
+
+
+/* #endregion collaborative design */
+

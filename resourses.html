@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resourses</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo">
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              width="40"
+              height="36"
+            />Product</a
+          >
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a href="./index.html" class="header-nav-list-link">Product</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="./pricises.html" class="header-nav-list-link">Pricing</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="./customer.html" class="header-nav-list-link"
+                >Customers</a
+              >
+            </li>
+            <li class="header-nav-list-item">
+              <a href="" class="header-nav-list-link main-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li><button type="button" class="btn-si">Sign In</button></li>
+          <li><button type="button" class="btn-su">Sign Up</button></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="feedback">
+        <div class="container feedback-container">
+          <h2 class="feedback-container-title">Contact Us</h2>
+          <p class="feedback-container-txt">
+            Need more detailed information? Get in touch with us.
+          </p>
+          <ul class="feedback-social-links-list">
+            <li class="feedback-social-links-item">
+              <a href="" class="feedback-social-links-item-link">
+                <svg class="social-icon" width="30" height="31">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="feedback-social-links-item">
+              <a href="" class="feedback-social-links-item-link">
+                <svg class="social-icon" width="30" height="31">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="feedback-social-links-item">
+              <a href="" class="feedback-social-links-item-link">
+                <svg class="social-icon" width="30" height="26">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <img src="./images/map.jpg" alt="location" width="871" height="344" />
+          <div class="feedback-form-container">
+            <p class="feedback-form-container-title">Send a message</p>
+            <form class="feedback-form">
+              <label for="user-name"></label>
+              <input
+              class="input-feedback-form"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Your Name"
+              />
+              <label for="user-email"></label>
+              <input
+              class="input-feedback-form"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Your Email"
+              />
+              <label for="message"></label>
+              <textarea
+                name="message"
+                name="message"
+                id="message"
+                placeholder="Your Message"
+              ></textarea>
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

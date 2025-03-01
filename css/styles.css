@@ -46,7 +46,7 @@ button {
     margin: 0 auto;
 }
 
-/* header style */
+/* #region header style */
 
 .header-container {
     display: flex;
@@ -121,7 +121,9 @@ button {
     background-color: #02897a;
 }
 
-/* hero style */
+/* #endregion header style */
+
+/* #region hero style */
 .hero-container {
     display: flex;
     padding-bottom: 100px;
@@ -163,12 +165,6 @@ button {
 .watch-video-btn {
     display: flex;
     align-items: center;
-    gap: 8px;
-}
-
-.watch-video-icon {
-    color: #02897a;
-    padding: 2px 0;
 }
 
 .btn-wtv {
@@ -178,9 +174,22 @@ button {
     color: #02897a;
     border: 0;
     background-color: transparent;
+    width: 164px;
+    height: 23px;
 }
 
-/* product style */
+.triangle-container {
+    margin-right: 8px;
+}
+
+.triangle-on-btn {
+    fill: #02897a;
+}
+
+
+/* #endregion hero style */
+
+/* #region product style */
 
 .product-container {
     display: flex;
@@ -232,7 +241,9 @@ button {
     justify-content: center;
 }
 
-/* management sections */
+/* #endregion product style */
+
+/* #region management section */
 
 .management-container {
     display: flex;
@@ -276,7 +287,9 @@ button {
     margin-bottom: 25px;
 }
 
-/* customer support design */
+/* #endregion management section */
+
+/* #region customer support design */
 
 .support-container {
     display: flex;

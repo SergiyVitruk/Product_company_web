@@ -61,8 +61,8 @@ button {
   line-height: 0.93;
   color: #173a56;
   gap: 16px;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
   align-items: center;
   margin-right: 237px;
 }
@@ -70,7 +70,6 @@ button {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  padding: 26px auto;
 }
 
 .header-nav-list {
@@ -78,6 +77,7 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  padding: 26px auto;
 }
 
 .main-link {
@@ -606,6 +606,7 @@ button {
 }
 
 .price-list-items-subtitle {
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: 0.01em;
@@ -620,7 +621,215 @@ button {
   padding: 11px 19px;
 }
 
+.green-item {
+  background-color: #02897a;
+}
+
+.white-txt {
+  color: #fff;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #02897a;
+}
+
 /* #endregion price design */
+
+/* #region clients-says design */
+
+.clients-says-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  align-items: center;
+}
+
+.clients-says-txt {
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  max-width: 537px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.clients-says-list {
+  display: flex;
+  gap: 64px;
+}
+
+.clients-says-list-item {
+  width: calc((100% - 128px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+}
+
+.clients-says-list-item-mark {
+  padding-left: 2px;
+  margin-bottom: 16px;
+}
+
+.clients-says-list-item-txt {
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  margin-bottom: 16px;
+}
+
+.clients-says-list-item-subcontainer {
+  display: flex;
+  gap: 14px;
+}
+
+.clients-says-list-item-subcontainer-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-says-list-item-subcontainer-title {
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.subcontainer-txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+}
+
+/* #endregion clients-says design */
+
+/* #region get-this design !!!error!!!*/
+
+.get-this {
+  padding-bottom: 100px;
+}
+
+.get-this-container {
+  display: flex;
+  padding: 4px 46px 10px 51px;
+  border-radius: 32px;
+  max-width: 968px;
+  background-color: #02897a;
+}
+
+.get-this-subcontainer {
+  padding-top: 45px;
+  padding-bottom: 46px;
+  margin-right: 10px;
+}
+
+.get-this-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.51;
+  color: #fff;
+  margin-bottom: 46px;
+}
+
+.get-this-btn {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  padding: 10px 34px;
+}
+
+/* .get-this-img {
+  /* filter: drop-shadow(0 0 32px 0 rgba(0, 0, 0, 0.15)); */
+
+
+/* #endregion get-this design */
+
+/* #region footer design */
+
+.footer-container {
+  padding-bottom: 40px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav-block {
+  flex-direction: column;
+  margin-right: 146px;
+  padding-bottom: 152px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  margin-bottom: 18px;
+}
+
+.footer-social-links-list {
+  display: flex;
+  max-width: 152px;
+  gap: 16px;
+}
+
+.footer-social-links-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #edfffc;
+}
+
+.footer-social-links-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.footer-nav-resoursces {
+  margin-right: 129px;
+}
+
+.footer-nav-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.footer-nav-txt {
+  line-height: 2.1875;
+}
+
+.footer-link-color {
+  color: #22343d;
+}
+
+.footer-nav-stuff {
+  margin-right: 83px;
+  min-width: 132px;
+}
+
+.footer-nav-subtitle {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.footer-input
+
+/* #endregion footer design */
 
 /* #region resourses page/feedback */
 .feedback-container {

@@ -11,13 +11,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -46,7 +46,9 @@
               >
             </li>
             <li class="header-nav-list-item">
-              <a href="./resourses.html" class="header-nav-list-link">Resources</a>
+              <a href="./resourses.html" class="header-nav-list-link"
+                >Resources</a
+              >
             </li>
           </ul>
         </nav>
@@ -315,101 +317,134 @@
             We focus on ergonomics and meeting you where you work. It's only a
             keystroke away.
           </p>
-          <ul>
-            <li>
+          <ul class="strategies-list">
+            <li class="strategies-list-item">
               <img
                 src="./images/thinkink_strategy.jpg"
                 alt="success thinking strategy"
                 width="350"
                 height="185"
               />
-              <p>By Wahid Ari | 03 March 2019</p>
-              <h3>Increasing Prosperity With Positive Thinking</h3>
+              <div class="strategies-item-subcontainer">
+                <p class="article-author">
+                  By <span class="article-author-design">Wahid Ari</span> | 03
+                  March 2019
+                </p>
+                <h3 class="article-name">
+                  Increasing Prosperity With Positive Thinking
+                </h3>
+              </div>
             </li>
-            <li>
+            <li class="strategies-list-item">
               <img
                 src="./images/motivation_strategy.jpg"
                 alt="motivation strategy"
                 width="350"
                 height="185"
               />
-              <p>By Wahid Ari | 03 March 2019</p>
-              <h3>Motivation Is The First Step To Success</h3>
+              <div class="strategies-item-subcontainer">
+                <p class="article-author">
+                  By <span class="article-author-design">Wahid Ari</span> | 03
+                  March 2019
+                </p>
+                <h3 class="article-name green-article-name">
+                  Motivation Is The First Step To Success
+                </h3>
+              </div>
             </li>
-            <li>
+            <li class="strategies-list-item">
               <img
                 src="./images/success_strategies.jpg"
                 alt="success steps stratedy"
                 width="350"
                 height="185"
               />
-              <p>By Wahid Ari | 03 March 2019</p>
-              <h3>Success Steps For Your Personal Or Business</h3>
+              <div class="strategies-item-subcontainer">
+                <p class="article-author">
+                  By <span class="article-author-design">Wahid Ari</span> | 03
+                  March 2019
+                </p>
+                <h3 class="article-name">
+                  Success Steps For Your Personal Or Business
+                </h3>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="price">
-        <div class="container">
-          <h2>Price Table</h2>
-          <p>We offer competitive price</p>
-          <ul>
-            <li>
-              <h3>Free</h3>
-              <p>Brief price description</p>
-              <h4>0</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
+        <div class="container price-container">
+          <h2 class="price-title">Price Table</h2>
+          <p class="price-txt">We offer competitive price</p>
+          <ul class="price-list">
+            <li class="price-list-items">
+              <h3 class="price-list-items-title">Free</h3>
+              <p class="price-list-items-txt">Brief price description</p>
+              <div class="price-list-items-subcontainer">
+                <h4 class="price-value">0</h4>
+                <div class="prise-value-subcontainer">
+                  <p class="price-value-currency">$</p>
+                  <p class="price-value-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-list-items-list">
                 <li>
-                  <h5>Only 2 Operators</h5>
+                  <h5 class="price-list-items-subtitle">Only 2 Operators</h5>
                 </li>
                 <li>
-                  <h5>Notifications</h5>
+                  <h5 class="price-list-items-subtitle">Notifications</h5>
                 </li>
                 <li>
-                  <h5>Landing Pages</h5>
+                  <h5 class="price-list-items-subtitle">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button type="button" class="order-now-btn">Order Now</button>
             </li>
-            <li>
-              <h3>Standard</h3>
-              <p>Brief price description</p>
-              <h4>5</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
+            <li class="price-list-items">
+              <h3 class="price-list-items-title">Standard</h3>
+              <p class="price-list-items-txt">Brief price description</p>
+              <div class="price-list-items-subcontainer">
+                <h4 class="price-value">5</h4>
+                <div class="prise-value-subcontainer">
+                  <p class="price-value-currency">$</p>
+                  <p class="price-value-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-list-items-list">
                 <li>
-                  <h5>5+ Operators</h5>
+                  <h5 class="price-list-items-subtitle">5+ Operators</h5>
                 </li>
                 <li>
-                  <h5>Notifications</h5>
+                  <h5 class="price-list-items-subtitle">Notifications</h5>
                 </li>
                 <li>
-                  <h5>Landing Pages</h5>
+                  <h5 class="price-list-items-subtitle">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button type="button" class="order-now-btn">Order Now</button>
             </li>
-            <li>
-              <h3>Premium</h3>
-              <p>Brief price description</p>
-              <h4>10</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
+            <li class="price-list-items">
+              <h3 class="price-list-items-title">Premium</h3>
+              <p class="price-list-items-txt">Brief price description</p>
+              <div class="price-list-items-subcontainer">
+                <h4 class="price-value">10</h4>
+                <div class="prise-value-subcontainer">
+                  <p class="price-value-currency">$</p>
+                  <p class="price-value-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-list-items-list">
                 <li>
-                  <h5>10+ Operators</h5>
+                  <h5 class="price-list-items-subtitle">10+ Operators</h5>
                 </li>
                 <li>
-                  <h5>Notifications</h5>
+                  <h5 class="price-list-items-subtitle">Notifications</h5>
                 </li>
                 <li>
-                  <h5>Landing Pages</h5>
+                  <h5 class="price-list-items-subtitle">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button type="button" class="order-now-btn">Order Now</button>
             </li>
           </ul>
         </div>

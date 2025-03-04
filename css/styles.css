@@ -46,6 +46,8 @@ button {
   margin: 0 auto;
 }
 
+/* #region index page */
+
 /* #region header style */
 
 .header-container {
@@ -216,8 +218,35 @@ button {
   width: calc((100% - 90px) / 4);
 }
 
-.product-icon {
+.product-icon-container {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
   margin-bottom: 18px;
+}
+
+.product-green-container {
+  background-color: #02897a;
+  padding: 18px 22px;
+}
+
+.product-blue-container {
+  background-color: #4d8dff;
+  padding: 18px 18px;
+}
+
+.product-violet-container {
+  background-color: #740a76;
+  padding: 18px 19px;
+}
+
+.product-red-container {
+  background-color: #f03e3d;
+  padding: 18px 20px;
+}
+
+.product-icon {
+  fill: #fff;
 }
 
 .product-subtitle {
@@ -625,6 +654,10 @@ button {
   background-color: #02897a;
 }
 
+.white-title {
+  color: #fff;
+}
+
 .white-txt {
   color: #fff;
 }
@@ -746,7 +779,6 @@ button {
 /* .get-this-img {
   /* filter: drop-shadow(0 0 32px 0 rgba(0, 0, 0, 0.15)); */
 
-
 /* #endregion get-this design */
 
 /* #region footer design */
@@ -757,12 +789,13 @@ button {
 
 .footer-nav {
   display: flex;
+  justify-content: center;
 }
 
 .footer-nav-block {
   flex-direction: column;
   margin-right: 146px;
-  padding-bottom: 152px;
+  padding-bottom: 121px;
 }
 
 .footer-logo {
@@ -825,11 +858,276 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
+  max-width: 280px;
 }
 
-.footer-input
+.footer-nav-input-block {
+  position: relative;
+}
+
+.footer-input {
+  width: 325px;
+  height: 48px;
+  padding: 10px 43px;
+  margin-bottom: 25px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  position: relative;
+}
+
+.mobile-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  transform: translateY(-50%);
+  fill: #02897a;
+}
+
+.footer-input::placeholder {
+  line-height: 1.75;
+  color: #02897a;
+}
+
+.footer-sun-btn {
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background-color: #02897a;
+  width: 131px;
+  height: 39px;
+}
+
+.footer-made-with-love-txt {
+  line-height: 1.875;
+  text-align: center;
+}
 
 /* #endregion footer design */
+
+/* #endregion index page */
+
+/* #region pricices page */
+
+/* #region our clients style*/
+
+.our-clients {
+  padding-top: 75px;
+  padding-bottom: 117px;
+  max-width: 890px;
+}
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.our-clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding: 16px 0;
+}
+
+/* #endregion our clients style*/
+
+/* #region Why Choose Product style*/
+
+.why-choose-container {
+  padding-top: 24px;
+  padding-bottom: 68px;
+  background-color: #f5f5f5;
+}
+
+.why-choose-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why-choose-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.why-choose-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - 60px) / 3);
+  padding: 32px 28px 34px 28px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+}
+
+.why-choose-icon-container {
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+}
+
+.why-choose-green-container {
+  padding: 16px 19px;
+  background-color: #02897a;
+}
+
+.why-choose-blue-container {
+  padding: 16px;
+  background-color: #4d8dff;
+}
+
+.why-choose-red-container {
+  background-color: #f03e3d;
+  padding: 16px 17px;
+}
+
+.why-choose-icon {
+  fill: #fff;
+}
+
+.why-choose-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.why-choose-txt {
+  line-height: 1.69;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+/* #endregion Why Choose Product style*/
+
+/* #region How Product Work? style*/
+
+.how-work-container {
+  padding-top: 101px;
+  padding-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-work-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 73px;
+}
+
+.how-work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 78px;
+}
+
+.how-work-list-item {
+  display: flex;
+  gap: 170px;
+}
+
+.how-work-txt-container {
+  padding: 34px 0;
+  max-width: 445px;
+}
+
+.how-work-txt-container-step {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.how-work-txt-container-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.how-work-txt-container-txt {
+  line-height: 1.75;
+}
+
+.how-work-list-item-reverse {
+  flex-direction: row-reverse;
+}
+
+.how-work-btn {
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding: 11px 18px;
+  background-color: #02897a;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+}
+
+/* #endregion How Product Work? style*/
+
+/* #region received offers style*/
+
+.received-offers-container {
+  padding-top: 35px;
+  padding-bottom: 45px;
+  background-image: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.received-offers-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 93px;
+  text-align: center;
+  max-width: 537px;
+}
+
+.received-offers-list {
+  display: flex;
+  gap: 227px;
+}
+
+.received-offers-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.received-offers-list-item img {
+  margin-bottom: 27px;
+}
+
+.received-offers-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+/* #endregion received offers style*/
 
 /* #region resourses page/feedback */
 .feedback-container {

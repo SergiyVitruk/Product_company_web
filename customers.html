@@ -36,14 +36,12 @@
               <a href="./index.html" class="header-nav-list-link">Product</a>
             </li>
             <li class="header-nav-list-item">
-              <a href="./pricises.html" class="header-nav-list-link main-link"
-                >Pricing</a
+              <a href="./customers.html" class="header-nav-list-link main-link"
+                >Customers</a
               >
             </li>
             <li class="header-nav-list-item">
-              <a href="./customer.html" class="header-nav-list-link"
-                >Customers</a
-              >
+              <a href="./pricing.html" class="header-nav-list-link">Pricing</a>
             </li>
             <li class="header-nav-list-item">
               <a href="./resourses.html" class="header-nav-list-link"
@@ -218,7 +216,7 @@
                 height="150"
               />
               <h3 class="received-offers-subtitle">Business</h3>
-              <ul>
+              <ul class="received-offers-sublist">
                 <li>
                   <p>Cash Flow</p>
                 </li>
@@ -229,7 +227,7 @@
                   <p>Receivables Finance</p>
                 </li>
               </ul>
-              <p>Find the best business product</p>
+              <p class="received-offers-txt">Find the best business product</p>
             </li>
             <li class="received-offers-list-item">
               <img
@@ -239,7 +237,7 @@
                 height="150"
               />
               <h3 class="received-offers-subtitle">Enterprise</h3>
-              <ul>
+              <ul class="received-offers-sublist">
                 <li>
                   <p>Site Acquisition</p>
                 </li>
@@ -250,12 +248,29 @@
                   <p>Development Financing</p>
                 </li>
               </ul>
-              <p>Find the best business product</p>
+              <p class="received-offers-txt">Find the best business product</p>
             </li>
           </ul>
         </div>
       </section>
-      <section></section>
+      <!-- Section get this (new padding) -->
+      <section class="get-this get-this-pricises">
+        <div class="container get-this-container">
+          <div class="get-this-subcontainer">
+            <h2 class="get-this-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="get-this-btn" type="button">Get This</button>
+          </div>
+          <img
+            class="get-this-img"
+            src="./images/graphics.png"
+            alt="graphics"
+            width="351"
+            height="331"
+          />
+        </div>
+      </section>
     </main>
     <footer>
       <div class="container footer-container">
@@ -328,16 +343,9 @@
             <p class="footer-nav-subtitle">
               knowing you're always on the best energy deal.
             </p>
-            <divc class="footer-nav-input-block">
-              <input
-                class="footer-input"
-                type="tel"
-                placeholder="Enter your phone number"
-              />
-              <svg class="mobile-icon" width="18" height="28">
-                <use href="./images/icons.svg#icon-mobile-screen"></use>
-              </svg>
-            </divc>
+            <div class="footer-nav-input-block">
+              <input class="footer-input" type="tel" />
+            </div>
             <button class="footer-sun-btn" type="button">Sign up Now</button>
           </div>
         </nav>

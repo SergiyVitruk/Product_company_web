@@ -586,6 +586,7 @@ button {
 }
 
 .price-list-items-txt {
+  font-weight: 400;
   line-height: 2.5;
   margin-bottom: 16px;
 }
@@ -660,6 +661,10 @@ button {
 
 .white-txt {
   color: #fff;
+}
+
+.grey-txt {
+  color: #e0e0e0;
 }
 
 .white-btn {
@@ -908,7 +913,7 @@ button {
 
 /* #endregion index page */
 
-/* #region pricices page */
+/* #region customers page */
 
 /* #region our clients style*/
 
@@ -1068,6 +1073,7 @@ button {
 
 .how-work-btn {
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
@@ -1084,7 +1090,7 @@ button {
 
 .received-offers-container {
   padding-top: 35px;
-  padding-bottom: 45px;
+  padding-bottom: 195px;
   background-image: linear-gradient(
     180deg,
     #f5f5f5 0%,
@@ -1112,6 +1118,7 @@ button {
 .received-offers-list-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -1127,7 +1134,181 @@ button {
   margin-bottom: 16px;
 }
 
+.received-offers-sublist {
+  font-size: 18px;
+  line-height: 1.77778;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 12px;
+}
+
+.received-offers-txt {
+  font-weight: 500;
+  line-height: 1.75;
+  color: #000;
+  text-align: center;
+}
+
 /* #endregion received offers style*/
+
+/* get this padding */
+
+.get-this-pricises {
+  padding-bottom: 150px;
+}
+
+/* #endregion customers page */
+
+/* #region pricing page */
+
+.header-contaner-pricing {
+  padding-bottom: 75px;
+}
+
+/* #region pricing style */
+
+.pricing-container {
+  padding-bottom: 150px;
+}
+
+.pricing-title {
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.pricing-title-design {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.pricing-txt {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 49px;
+}
+
+.pricing-list-items {
+  padding: 24px 74px 32px 74px;
+}
+
+.pricing-btn {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* #endregion pricing style */
+
+/* #region enterprise style */
+
+.enterprise-container {
+  padding-top: 53px;
+  padding-bottom: 51px;
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enterprice-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enterprice-title-design {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.enterprice-txt {
+  font-size: 18px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.enterprice-btn {
+  padding: 11px 18px;
+  border-radius: 8px;
+  background-color: #02897a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  max-width: 224px;
+}
+
+/* #endregion enterprise style */
+
+/* #region product style*/
+
+.pricing-product-container {
+  padding-top: 294px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-product-subcontainer > img {
+  padding-top: 24px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+}
+
+.pricing-product-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.pricing-product-subcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pricing-product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pricing-product-icon-container {
+  border-radius: 100px;
+  padding: 13px;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f5f7;
+}
+
+.feature-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-product-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.pricing-product-txt {
+  line-height: 1.75;
+}
+
+/* #endregion product style*/
+
+/* #endregion pricing page */
 
 /* #region resourses page/feedback */
 .feedback-container {

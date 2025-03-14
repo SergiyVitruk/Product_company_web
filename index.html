@@ -56,18 +56,32 @@
           <li><button type="button" class="btn-si">Sign In</button></li>
           <li><button type="button" class="btn-su">Sign Up</button></li>
         </ul>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="31">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero">
         <div class="container hero-container">
+          <img
+            src="./images/section_image/hero.png"
+            alt="Peoples"
+            width="338"
+            height="311"
+          />
           <div class="hero-title-marg">
             <h1 class="hero-title">Work at the speed of thought</h1>
-            <p class="hero-txt">
-              Tools, tutorials, design and innovation experts, all in one place!
-              The most intuitive way to imagine your next user experience.
-            </p>
+            <div class="hero-txt-width">
+              <p class="hero-txt">
+                Tools, tutorials, design and innovation experts, all in one
+                place! The most intuitive way to imagine your next user
+                experience.
+              </p>
+            </div>
             <ul class="hero-btn-list">
               <li><button type="button" class="btn-gs">Get started</button></li>
               <li class="watch-video-btn">
@@ -82,12 +96,6 @@
               </li>
             </ul>
           </div>
-          <img
-            src="./images/section_image/hero.png"
-            alt="Peoples"
-            width="610"
-            height="555"
-          />
         </div>
       </section>
       <!-- product section -->
@@ -146,6 +154,12 @@
       <!-- management section -->
       <section class="management">
         <div class="container management-container">
+          <img
+            src="./images/section_image/management.png"
+            alt="Management"
+            width="349"
+            height="306"
+          />
           <div class="management-subcontainer">
             <h2 class="section-title">
               <span class="title-design">Effortless Validation for</span>
@@ -173,12 +187,6 @@
               </li>
             </ul>
           </div>
-          <img
-            src="./images/section_image/management.png"
-            alt="Management"
-            width="540"
-            height="500"
-          />
         </div>
       </section>
       <!-- support section -->
@@ -187,8 +195,8 @@
           <img
             src="./images/section_image/support.png"
             alt="Customer support"
-            width="540"
-            height="500"
+            width="350"
+            height="320"
           />
           <div class="support-subcontainer">
             <h2 class="section-title-support">
@@ -239,6 +247,12 @@
       <!-- collaborative section -->
       <section class="collaborative">
         <div class="container collaborative-container">
+          <img
+            src="./images/section_image/collaborative.png"
+            alt="Collaborative"
+            width="350"
+            height="291"
+          />
           <div class="collaborative-subcontainer">
             <h2 class="section-title">
               <span class="title-design">Optimisation for</span> Collaborative
@@ -265,12 +279,6 @@
               </li>
             </ul>
           </div>
-          <img
-            src="./images/section_image/collaborative.png"
-            alt="Collaborative"
-            width="540"
-            height="500"
-          />
         </div>
       </section>
       <!-- process section -->
@@ -293,16 +301,7 @@
               />
               <p class="process-item-txt">I can take care of your pitch</p>
             </li>
-            <li class="process-list-item reversed-item">
-              <img
-                src="./images/portret/violet_avatar.png"
-                alt="photo second developer"
-                width="98"
-                height="98"
-              />
-              <p class="process-item-txt">I can prototype your app</p>
-            </li>
-            <li class="process-list-item reversed-item">
+            <li class="process-list-item reversed-item green-order-item">
               <img
                 src="./images/portret/green_avatar.png"
                 alt="photo third developer"
@@ -311,7 +310,7 @@
               />
               <p class="process-item-txt">I can take care of your pitch</p>
             </li>
-            <li class="process-list-item">
+            <li class="process-list-item blue-order-item">
               <img
                 src="./images/portret/blue_avatar.png"
                 alt="photo fourth developer"
@@ -320,12 +319,21 @@
               />
               <p class="process-item-txt">I can help marketing strategy</p>
             </li>
+            <li class="process-list-item reversed-item violet-order-item">
+              <img
+                src="./images/portret/violet_avatar.png"
+                alt="photo second developer"
+                width="98"
+                height="98"
+              />
+              <p class="process-item-txt">I can prototype your app</p>
+            </li>
           </ul>
           <button class="btn-cou" type="button">Contact our expert</button>
         </div>
       </section>
       <!-- strategies section -->
-      <section class="strategies">
+      <section class="strategies hidden">
         <div class="container strategies-container">
           <h2 class="strategies-title">Contents Strategies</h2>
           <p class="strategies-txt">
@@ -388,7 +396,7 @@
         </div>
       </section>
       <!-- priice section -->
-      <section class="price">
+      <section class="price hidden">
         <div class="container price-container">
           <h2 class="price-title">Price Table</h2>
           <p class="price-txt">We offer competitive price</p>
@@ -470,7 +478,7 @@
         </div>
       </section>
       <!-- clients-says section -->
-      <section class="clients-says">
+      <section class="clients-says hidden">
         <div class="container clients-says-container">
           <h2 class="price-title">What Clients Say</h2>
           <p class="clients-says-txt">
@@ -563,7 +571,7 @@
         </div>
       </section>
       <!-- get this section -->
-      <section class="get-this">
+      <section class="get-this hidden">
         <div class="container get-this-container">
           <div class="get-this-subcontainer">
             <h2 class="get-this-title">
@@ -581,7 +589,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="hidden">
       <div class="container footer-container">
         <nav class="footer-nav">
           <div class="footer-nav-block">

@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+    <symbol id="icon-burger-menu" viewBox="0 0 29 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 16h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 8h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968"
+        d="M3.613 24h21.677"></path>
+    </symbol>
     <symbol id="icon-triangle" viewBox="0 0 28 32">
       <path
         d="M26.088 12.891c2.441 1.354 2.441 4.864 0 6.218L4.933 30.848c-2.37 1.315-5.281-.399-5.281-3.109V4.262c0-2.71 2.911-4.424 5.281-3.109l21.155 11.739z" />

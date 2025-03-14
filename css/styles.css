@@ -294,7 +294,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
   padding-bottom: 138px;
 }
 
@@ -721,3 +720,254 @@ header {
 }
 
 /* #endregion process design */
+
+/* #region strategies design */
+
+.strategies-container {
+  padding-bottom: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 390px;
+}
+
+.strategies-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.strategies-txt {
+  font-weight: 500;
+  line-height: 1.63;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.strategies-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.strategies-list-item {
+  border-radius: 8px;
+}
+
+.strategies-item-subcontainer {
+  padding: 24px 54px 40px 0;
+}
+
+.article-author {
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.article-author-design {
+  font-weight: 700;
+}
+
+.article-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+.green-article-name {
+  color: #02897a;
+}
+
+@media screen and (min-width: 1158px) {
+  .strategies-container {
+    padding-bottom: 171px;
+    max-width: 1150px;
+  }
+  .strategies-title {
+    margin-bottom: 10px;
+  }
+  .strategies-txt {
+    max-width: 465px;
+  }
+
+  .strategies-list {
+    gap: 30px;
+    flex-direction: row;
+  }
+
+  .strategies-list-item {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dedede;
+    border-radius: 8px;
+  }
+
+  .strategies-item-subcontainer {
+    padding: 24px 27px 40px 27px;
+  }
+}
+
+/* #endregion strategies design */
+
+/* #region price design */
+
+.price-container {
+  padding-bottom: 100px;
+  max-width: 365px;
+}
+
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.price-txt {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.price-list-items {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 24px 74px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-list-items-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+}
+
+.price-list-items-txt {
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+.price-list-items-subcontainer {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.price-value {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+
+.prise-value-subcontainer {
+  flex-direction: column;
+  padding: 24px 0;
+}
+
+.price-value-currency {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-bottom: 4px;
+}
+
+.price-value-period {
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.price-list-items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 38px;
+}
+
+.price-list-items-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+}
+
+.order-now-btn {
+  background-color: #02897a;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding: 11px 19px;
+}
+
+.green-item {
+  background-color: #02897a;
+}
+
+.white-title {
+  color: #fff;
+}
+
+.white-txt {
+  color: #fff;
+}
+
+.grey-txt {
+  color: #e0e0e0;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #02897a;
+}
+
+@media screen and (min-width: 1158px) {
+  .price-container {
+    max-width: 1150px;
+  }
+  .price-title {
+    margin-bottom: 10px;
+  }
+
+  .price-txt {
+    margin-bottom: 40px;
+  }
+
+  .price-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 72px;
+  }
+  .price-list-items {
+    padding: 32px 72px;
+    width: calc((100% - 144px) / 3);
+  }
+.price-list-items-subcontainer {
+    gap: 7px;
+  }
+  .price-value-currency {
+  margin-bottom: 8px;
+}
+
+.price-list-items-list {
+  margin-bottom: 30px;
+}
+}
+
+/* #endregion price design */

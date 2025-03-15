@@ -1368,3 +1368,363 @@ header {
 /* #endregion footer design */
 
 /* #endregion index page */
+
+/* #region customers page */
+
+.customer-header {
+  padding-bottom: 50px;
+}
+
+/* #region our clients style*/
+
+.our-clients {
+  padding-bottom: 77px;
+}
+
+.our-clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.our-clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 52px;
+}
+
+@media screen and (min-width: 1158px) {
+  .our-clients {
+    padding-top: 50px;
+    padding-bottom: 117px;
+    max-width: 890px;
+  }
+  .our-clients-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .our-clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 16px 0;
+  }
+  .microsoft-icon-size {
+    width: 213px;
+    height: 44px;
+  }
+}
+
+/* #endregion our clients style*/
+
+/* #region Why Choose Product style*/
+
+.why-choose-container {
+  padding: 24px 5px 61px;
+  background-color: #f5f5f5;
+}
+
+.why-choose-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why-choose-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.why-choose-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 37px 34px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.why-choose-icon-container {
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+}
+
+.why-choose-green-container {
+  padding: 16px 19px;
+  background-color: #02897a;
+}
+
+.why-choose-blue-container {
+  padding: 16px;
+  background-color: #4d8dff;
+}
+
+.why-choose-red-container {
+  background-color: #f03e3d;
+  padding: 16px 17px;
+}
+
+.why-choose-icon {
+  fill: #fff;
+}
+
+.why-choose-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.why-choose-txt {
+  line-height: 1.69;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+@media screen and (min-width: 1158px) {
+  .why-choose-container {
+    padding-bottom: 68px;
+  }
+  .why-choose-title {
+    font-size: 34px;
+  }
+
+  .why-choose-list {
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+  }
+  .why-choose-list-item {
+    justify-content: center;
+    width: calc((100% - 60px) / 3);
+    padding: 32px 28px 34px 28px;
+  }
+}
+
+/* #endregion Why Choose Product style*/
+
+/* #region How Product Work? style*/
+
+.how-work-container {
+  padding-top: 96px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-work-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 79px;
+}
+
+.how-work-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 72px;
+  max-width: 355px;
+}
+
+.how-work-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  max-width: 355px;
+}
+
+.how-work-txt-container-step {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.how-work-txt-container-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.how-work-txt-container-txt {
+  line-height: 1.75;
+}
+
+.how-work-list-item-reverse {
+  flex-direction: column;
+  gap: 67px;
+  max-width: 355px;
+}
+
+.how-work-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .how-work-container {
+    padding-top: 101px;
+    padding-bottom: 115px;
+  }
+  .how-work-title {
+    font-size: 34px;
+    margin-bottom: 73px;
+  }
+
+  .how-work-list {
+    gap: 100px;
+    margin-bottom: 78px;
+    max-width: 1027px;
+  }
+
+  .how-work-list-item {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+    max-width: 1027px;
+  }
+
+  .how-work-list-item img {
+    width: 500px;
+    height: 280px;
+  }
+
+  .how-work-txt-container {
+    padding: 34px 0;
+    max-width: 445px;
+  }
+
+  .how-work-list-item-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .how-work-btn {
+    display: block;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    padding: 11px 18px;
+    background-color: #02897a;
+    border-radius: 8px;
+  }
+}
+
+/* #endregion How Product Work? style*/
+
+/* #region received offers style*/
+
+.received-offers-container {
+  padding: 30px 30px 33px 30px;
+  background-image: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.received-offers-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 85px;
+  text-align: center;
+  max-width: 351px;
+}
+
+.received-offers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.received-offers-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.received-offers-list-item img {
+  margin-bottom: 35px;
+}
+
+.received-offers-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.received-offers-sublist {
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 12px;
+}
+
+.received-offers-txt {
+  font-weight: 500;
+  line-height: 1.75;
+  color: #000;
+  text-align: center;
+}
+
+@media screen and (min-width: 1158px) {
+  .received-offers-container {
+    padding-top: 35px;
+    padding-bottom: 45px;
+    justify-content: center;
+  }
+
+  .received-offers-title {
+    margin-bottom: 93px;
+    max-width: 537px;
+  }
+
+  .received-offers-list {
+    display: flex;
+    flex-direction: row;
+    gap: 227px;
+  }
+
+  .received-offers-list-item img {
+    margin-bottom: 27px;
+  }
+}
+
+/* #endregion received offers style*/
+
+/* get this padding */
+
+.get-this-pricises {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 1158px) {
+  .get-this-pricises {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+/* #endregion customers page */
